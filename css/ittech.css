@@ -1,0 +1,106 @@
+.column-login {
+    max-width: 450px;
+}
+
+.login > .grid {
+    height: 100%;
+}
+
+.ui.footer.segment {
+    margin: 5em 0em 0em;
+}
+
+.ui.menu {
+    z-index: 1;
+    position: relative;
+}
+
+.ui.button.remove-question {
+    margin-top: 1.6em;
+}
+
+/* Banner */
+.banner {
+    margin-top: -10px;
+    height: 400px;
+    background: #d6d6d6;
+    margin-bottom: 3em;
+}
+/* /Banner */
+
+.item .image img {
+    max-width: 100%;
+}
+
+.ui.button.new-survey, .ui.button.new-question {
+    margin-left: 10px;
+}
+
+.ui.cards>.card.card-employees {
+    width: 100em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.ui.cards>.card.card-employees .header {
+    margin-bottom: 0.5em;
+}
+
+.ui.menu .item>img:not(.ui) {
+    width: 5em;
+}
+
+.banner p {
+    font-size: 2em;
+}
+.banner{
+    position: relative;
+}
+.bannerImg{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    z-index: 0;
+}
+#forBanner{
+    position: absolute;
+    width: 60%;
+    height: calc(100% - 10px);
+    left: 22%;
+    overflow: hidden;
+}
+#img3{
+    background: url("../img/maxresdefault.jpg")  no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+#img2{
+    background: url("../img/picture2.jpg")  no-repeat;
+    background-size: inherit;
+    background-position-x: center;
+    background-position-y: center;
+}
+#img1{
+    background: url("../img/results_puzzle15499638_M_cropped.jpg")  no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.bannerImg>h2{
+    background: white;
+    opacity: 0.7;
+    color: black;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0.5, 0.5);
+}
+#listEmployees{
+    display: none;
+}
+.secretDiv{
+    display: none;
+}
